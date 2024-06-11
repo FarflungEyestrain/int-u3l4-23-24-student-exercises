@@ -22,7 +22,7 @@ let image = document.querySelector('.image');
 //   - The `location` paragraph.
 
 contentButton.addEventListener('click', function() {
-
+    image.src = "https://media.tenor.com/phShJyoer9QAAAAM/markiplier.gif";
 
 
 
@@ -32,14 +32,19 @@ contentButton.addEventListener('click', function() {
 
 // 3. Add an event listener to the `image1Button`
 // 4. When clicked, it should change the source of `image` to another image URL.
+image1Button.addEventListener('click', function() {
+    image.src = "https://media.tenor.com/1gR1ggdyLTAAAAAM/markiplier-markiplier-dance.gif";
 
 
-
-
+});
 
 // 5. Add an event listener to the `image2Button`
 // 6. When clicked, it should change the source of `image` to another image URL.
+image2Button.addEventListener('click', function() {
+    image.src = "https://static.wikia.nocookie.net/645c00ac-dbdb-482b-8058-434c8f71e2e3/scale-to-width/755";
 
+
+});
 
 // BONUS
 // 7. Try using different event types for your buttons.
